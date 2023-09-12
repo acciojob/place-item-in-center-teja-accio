@@ -1,12 +1,14 @@
 /* Your CSS Code here. */
+body, .holder {
+    margin: 0;
+    padding: 0;
+}
 .holder{
 	display: flex;
 	justify-content:center;
 	align-items:center;
-	 width: 100vw; /* Take full viewport width */
-	  height: 100vh; /* Take full viewport height */
-	  /* Optional: Add a background color to the holder */
-	  background-color: #f0f0f0;
+	width: 100vw; 
+	height: 100vh; 
 }
 .item-1{
 	width: 100px;
