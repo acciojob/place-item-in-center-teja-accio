@@ -1,8 +1,5 @@
 /* Your CSS Code here. */
-body, .holder {
-    margin: 0;
-    padding: 0;
-}
+
 .holder{
 	display: flex;
 	justify-content:center;
@@ -11,6 +8,8 @@ body, .holder {
 	height: 100vh; 
 }
 .item-1{
+	display:flex;
+	justify-content:center;
 	width: 100px;
 	height: 100px;
 	background-color: red;
