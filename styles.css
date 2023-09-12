@@ -1,17 +1,20 @@
 /* Your CSS Code here. */
-
-/* Step 1: Make the holder a flex container */
 .holder {
-  display: flex; /* Display the holder as a flex container */
-  justify-content: center; /* Horizontally center the item within the holder */
-  align-items: center; /* Vertically center the item within the holder */
-  width: 100vw; /* Make the holder take full viewport width */
-  height: 100vh; /* Make the holder take full viewport height */
+	
+    width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.item, .item-1{
+	background:red;
+   width:100px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-left:20px;
 }
 
-/* Step 2: Style item-1 */
-.item-1 {
-  width: 100px; /* Set width to 100px */
-  height: 100px; /* Set height to 100px */
-  background-color: red; /* Set a red background color */
-}
